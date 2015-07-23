@@ -33,7 +33,7 @@ class TestGmail(unittest.TestCase):
             self.driver.find_element_by_xpath("//input[@id='PersistentCookie']").click()
         self.driver.find_element_by_xpath("//input[@id='signIn']").click()
 
-        #--wait for logged in status--
+        #--wait for logged in status---
         
         #---Wait and Check for Inbox page load ---
         print "|waiting for Email Inbox page load completely.."
